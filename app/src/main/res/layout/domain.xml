@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".domain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btn1"
+                android:layout_width="370dp"
+                android:textColor="@color/white"
+                android:layout_height="59dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="53dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="38dp"
+                android:background="#000000"
+                android:text="Domain Courses"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical">
+                <!-- image 1-->
+
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="45dp"
+                    android:onClick="scroll"
+                    android:src="@drawable/agribusiness">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="-100dp"
+                    android:text="AgriBusiness"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    android:textSize="26dp"></TextView>
+
+                <!-- image 2-->
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="13dp"
+                    android:onClick="scroll1"
+                    android:src="@drawable/ar_vr">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="-100dp"
+                    android:text="AR-VR"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    android:textSize="26dp"></TextView>
+
+
+
+                <!-- image 3-->
+
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="13dp"
+                    android:onClick="scroll1"
+                    android:src="@drawable/automobile_engineering">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="-100dp"
+                    android:text="Automobile"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    android:textSize="26dp"></TextView>
+
+                <!-- image4 -->
+
+
+                <ImageView
+                    android:layout_width="265dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="73dp"
+                    android:onClick="scroll2"
+                    android:src="@drawable/business_statics">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="271dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="-113dp"
+                    android:text="Business Statistics"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="29dp"></TextView>
+                <!--                imgae 5-->
+
+                <ImageView
+                    android:layout_width="303dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll3"
+                    android:src="@drawable/cloud_technology">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="Cloud Computing"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--image 6-->
+
+
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll4"
+                    android:src="@drawable/cnc">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="CNC"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 7-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll5"
+                    android:src="@drawable/communication_system">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="Communication Systems"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--imagae 8-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll6"
+                    android:src="@drawable/computer_vision">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+
+                    android:text="                             Computer Systems"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 9-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll7"
+                    android:src="@drawable/cyber_security">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                           Cyber-Security"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 10-->
+
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll8"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/cybersecurity_and_digital_forenics">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Digital Forensics"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 11-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll9"
+                    android:src="@drawable/b2b">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="B2b"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--image 12-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll10"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/data_analytics">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                              Data-Analytics"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--image 13-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll11"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/data_science">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Data-Sciemce"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--                image 14-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll12"
+                    android:src="@drawable/digital_marketing">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                                Digital Marketing"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--image15 -->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll13"
+                    android:src="@drawable/ecommerce">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="285dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Ecommerce"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--         image 16-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll14"
+                    android:src="@drawable/electrotherapy">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Electrography"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--    image 17-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll15"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/embedded_system">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                                    Embedded-Systems"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--     image 18-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll16"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/food_processing">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Food-Processing"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--     image 19-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll17"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/internet_web">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Internet-Web"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--                image 20-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll18"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/job_readness">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Job-Readiness"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
